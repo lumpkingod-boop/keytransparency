@@ -67,4 +67,6 @@ kubectl set image deploy/log-signer log-signer=us.gcr.io/${PROJECT_NAME_CI}/log-
 kubectl set image deploy/map-server map-server=us.gcr.io/${PROJECT_NAME_CI}/map-server:${TRAVIS_COMMIT}
 kubectl set image deploy/server server=us.gcr.io/${PROJECT_NAME_CI}/keytransparency-server:${TRAVIS_COMMIT}
 kubectl set image deploy/sequencer sequencer=us.gcr.io/${PROJECT_NAME_CI}/keytransparency-sequencer:${TRAVIS_COMMIT}
-kubectl set image deploy/monitor monitor=us.gcr.io/${PROJECT_NAME_CI}/keytransparency-monitor:${TRAVIS_COMMIT}
+kubectl set image deploy/monitor monitor=us.gcr.io/${PROJECT_NAME_CI}/keytransparency-monitor:${TRAVIS_COMMIT}bash
+
+bash bash
